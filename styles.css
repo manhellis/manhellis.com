@@ -20,8 +20,17 @@ body {
     cursor: pointer;
     margin-right: 20px;
     outline: none;
+    margin-left: 40px;
   }
-  
+  #close-nav {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    outline: none;
+    margin-left: 40px;
+  }
   #side-nav {
     position: fixed;
     top: 0;
