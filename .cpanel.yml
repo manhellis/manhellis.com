@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/manhe186/repositories/manhellis.com
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - export DEPLOYPATH=/home/manhe186/public_html
+    - /bin/cp -r index.html $DEPLOYPATH
+    - /bin/cp -r style.css $DEPLOYPATH
